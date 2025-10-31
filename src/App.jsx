@@ -19,7 +19,7 @@ function App() {
     <About />
     <Projects />
     <Exp />
-    <Webtoon />
+    
     <Contact />
     <Footer />
     </>
