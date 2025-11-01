@@ -15,7 +15,7 @@ export default function Projects () {
 
                     <div className="flex flex-row bg-[#E57375] ml-20 mr-20 mt-10 rounded-2xl gap- ">
                         <div className="m-7 w-[500px] shrink-0">
-                            <img src="public\swiftshare_homepage.png" alt="swiftshare homepage"/>
+                            <img src="/swiftshare_homepage.png" alt="swiftshare homepage"/>
                         </div>
 
                         <div className="m-4 grow ">
