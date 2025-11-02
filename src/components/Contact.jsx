@@ -105,7 +105,7 @@ export default function Contact() {
         <form onSubmit={handleSubmit} className="max-w-2xl mx-auto space-y-4 p-4">
           <div className="space-y-1">
             <label className="block text-sm font-medium text-gray-700">
-              Name *
+              Name 
             </label>
             <input
               type="text"
@@ -115,23 +115,23 @@ export default function Contact() {
               onChange={handleChange}
             />
             {formErrors.name && (
-              <p className="text-red-500 text-xs mt-1">{formErrors.name}</p>
+              <p className="text-[#0B685C] text-xs font-semibold mt-1">{formErrors.name}</p>
             )}
           </div>
 
           <div className="space-y-1 bg-">
             <label className="block text-sm font-medium text-gray-700">
-              Email *
+              Email 
             </label>
             <input
               type="email"
               name="email"
-              className="w-full p-3 border rounded-lg text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              className="w-full p-3 border rounded-lg text-sm focus:ring-2 focus:ring-pink-500 focus:border-pink-500"
               value={formData.email}
               onChange={handleChange}
             />
             {formErrors.email && (
-              <p className="text-red-500 text-xs mt-1">{formErrors.email}</p>
+              <p className="text-[#0B685C] font-semibold text-xs mt-1">{formErrors.email}</p>
             )}
           </div>
 
@@ -143,18 +143,18 @@ export default function Contact() {
               name="message"
               value={formData.message}
 
-              className="w-full p-3 border rounded-lg text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500" 
+              className="w-full p-3 border rounded-lg text-sm focus:ring-2 focus:ring-pink-500 focus:border-pink-500" 
   
               onChange={(e) => handleChange(e)}
             ></textarea>
             {formErrors.message && (
-          <p className="text-red-500 text-xs mt-1">{formErrors.message}</p>
+          <p className="text-[#0B685C] font-semibold text-xs mt-1">{formErrors.message}</p>
         )}
           </div>
 
           <button
             type="submit"
-            className="w-full px-6 py-3 bg-[#000000] text-white rounded-lg hover:bg-pink-700 transition-colors disabled:opacity-50"
+            className="w-full px-6 py-3 bg-[#000000] text-white rounded-lg hover:bg-[#003b33] transition-colors disabled:opacity-50"
             disabled={status === "submitting"}
           >
             {status === "submitting" ? "Submitting..." : "Submit"}

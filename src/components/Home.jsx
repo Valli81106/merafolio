@@ -17,7 +17,7 @@ export default function Home () {
 
                         <div className="ml-10">
                             {/* star element or image */}
-                            <img src="/starblack.svg" alt="star" />
+                            <img src="/starblack.svg" alt="star" className="animate-slow-spin" />
                         </div>
                     </div>
 
@@ -33,7 +33,7 @@ export default function Home () {
                         <div className="pl-5 pt-10">
                             <RotatingText
                             texts = {['webdeveloper' , 'ui/ux designer']}
-                            mainClassName = "text-5xl pl-5 pr-5 pt-1 pb-1 text-black font-semibold bg-[#E57375] overflow-hidden justify center rounded-3xl" 
+                            mainClassName = "text-5xl pl-5 pr-5 pt-1 pb-1 m text-black font-semibold bg-[#E57375] overflow-hidden justify center rounded-3xl" 
                             staggerFrom={"last"}
                             initial={{ y: "100%" }}
                             animate={{ y: 0 }}

@@ -1,3 +1,5 @@
+import Folder from "./common/Folder"
+
 export default function About () {
     return (
         <>
@@ -6,7 +8,7 @@ export default function About () {
                 <div className="flex justify-end">
                     <div className="mb-4">
                         {/* another tsar */}
-                        <img src="/pinkStar.svg"/>
+                        <img src="/pinkStar.svg" className="animate-slow-spin"/>
                     </div>
 
                     <div className="text-black text-[80px] font-bold mr-10 ">
@@ -17,7 +19,11 @@ export default function About () {
                      
                 <div className="flex flex-row justify-end pr-10 pt-5">
                     <div>
-                        {/* kuch toh aayega dekha jaayega*/}
+
+
+                            <div style={{ height: '600px', position: 'relative' }}>
+                            <Folder size={2} color="#5227FF" className="custom-folder" />
+                            </div>
                     </div>
                     <div className="pl-150 text-xl">
                         i love bringing designs and ideas to life through technology. 

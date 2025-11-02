@@ -9,7 +9,7 @@ export default function Projects () {
                         </div>
 
                         <div>
-                            <img src="/pinkStar.svg"/>
+                            <img src="/pinkStar.svg" className="animate-slow-spin"/>
                         </div>
                     </div>
 

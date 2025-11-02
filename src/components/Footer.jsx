@@ -19,13 +19,13 @@ export default function Footer () {
                     </div>
                 </div>
 
-                <div className="flex flex-row ietms-center justify-evenly mt-15 text-2xl text-[#E58EB0] font-semibold">
+                <div className="flex flex-row ietms-center justify-evenly mt-15 text-2xl text-[#DFE365] font-semibold">
                     <div>
                         <a
                         href="www.linkedin.com/in/sreevalli-pallapothu-180b74321"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="hover:text-pink-300 transition duration-300 underline"
+                        className="hover:text-yellow-300 transition duration-300 underline"
                         >
                             LinkedIn
                         </a>
@@ -36,7 +36,7 @@ export default function Footer () {
                         href="https://github.com/Valli81106"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="hover:text-pink-300 transition duration-300 underline"
+                        className="hover:text-yellow-300 transition duration-300 underline"
                         >
                             GitHub
                         </a>
@@ -47,7 +47,7 @@ export default function Footer () {
                         href="https://www.instagram.com/valli81106/?hl=en"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="hover:text-pink-300 transition duration-300 underline"
+                        className="hover:text-yellow-300 transition duration-300 underline"
                         >
                             Instagram
                         </a>
