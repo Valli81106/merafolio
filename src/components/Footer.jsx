@@ -1,7 +1,7 @@
 export default function Footer () {
     return (
         <>
-        <div className="bg-[#0B685C] text-4xl pt-30">
+        <div className="bg-[#0B685C] text-4xl pt-30 pb-10">
             <div className="">
                 <div className="flex flex-row justify-center gap-10" >
                     <div className="">
@@ -19,17 +19,38 @@ export default function Footer () {
                     </div>
                 </div>
 
-                <div className="flex flex-row  ietms-center justify-evenly mt-10">
+                <div className="flex flex-row ietms-center justify-evenly mt-15 text-2xl text-[#E58EB0] font-semibold">
                     <div>
-                        linkedIN
+                        <a
+                        href="www.linkedin.com/in/sreevalli-pallapothu-180b74321"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:text-pink-300 transition duration-300 underline"
+                        >
+                            LinkedIn
+                        </a>
                     </div>
 
                     <div>
-                        github
+                         <a
+                        href="https://github.com/Valli81106"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:text-pink-300 transition duration-300 underline"
+                        >
+                            GitHub
+                        </a>
                     </div>
 
                     <div>
-                        instagram
+                         <a
+                        href="https://www.instagram.com/valli81106/?hl=en"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:text-pink-300 transition duration-300 underline"
+                        >
+                            Instagram
+                        </a>
                     </div>
                 </div>
             </div>

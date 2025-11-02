@@ -89,7 +89,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="bg-[#0B685C] text-4xl pt-20">
+    <div className="bg-[#0B685C] text-4xl ">
       <div className="relative flex flex-col items-center ">
         <div className="text-[#B08585] lg:text-[250px] md:[200px] text-[70px]">
           contact me
@@ -110,7 +110,7 @@ export default function Contact() {
             <input
               type="text"
               name="name"
-              className="w-full p-3 border rounded-lg text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              className="w-full p-3 border rounded-lg text-sm focus:ring-2 focus:ring-pink-500 focus:border-pink-500"
               value={formData.name}
               onChange={handleChange}
             />
@@ -154,7 +154,7 @@ export default function Contact() {
 
           <button
             type="submit"
-            className="w-full px-6 py-3 bg-[#000000] text-white rounded-lg hover:bg-blue-700 transition-colors disabled:opacity-50"
+            className="w-full px-6 py-3 bg-[#000000] text-white rounded-lg hover:bg-pink-700 transition-colors disabled:opacity-50"
             disabled={status === "submitting"}
           >
             {status === "submitting" ? "Submitting..." : "Submit"}

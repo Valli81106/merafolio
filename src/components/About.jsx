@@ -19,7 +19,7 @@ export default function About () {
                     <div>
                         {/* kuch toh aayega dekha jaayega*/}
                     </div>
-                    <div className="pl-150 text-2xl">
+                    <div className="pl-150 text-xl">
                         i love bringing designs and ideas to life through technology. 
                         i'm into webtoons, lovebite (it's a snack), kpop, anime, and watching people make cool shit. 
                         my goal in life is to shut up and create something. i love designing and all forms of art like video 
@@ -30,8 +30,8 @@ export default function About () {
                     </div>
                 </div>
 
-                <div className="text-6xl pt-10 pl-100 text-[#E57375]">
-                    shut up and create smth
+                <div className="instrument-serif-regular text-7xl pt-10 pl-100 text-[#E57375] ">
+                    shut up and create something
                 </div>
             </div>
         </div>
