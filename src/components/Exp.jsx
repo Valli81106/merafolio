@@ -97,7 +97,7 @@ export default function Exp() {
           <h3 className="text-black font-semibold text-2xl mb-2 mt-7">OssomeHacks 2.0</h3>
           <div className="flex flex-col md:flex-row gap-6 items-start">
             <div className="w-full md:w-1/3 h-70">
-              <img src="public\keshi_and_me_github.jpg" className="w-full h-full object-cover rounded-lg overflow-hidden" />
+              <img src="/keshi_and_me_github.jpg" className="w-full h-full object-cover rounded-lg overflow-hidden" />
             </div>
             <p className="text-white/80 text-base leading-relaxed max-w-xl">
               I was part of the organizing committee for OssomeHacks 2.0, a 36-hour hackathon conducted 
